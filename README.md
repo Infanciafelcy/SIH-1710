@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 19-03-2026
+## Register Number: 212223040067
+## Name: INFANCIA FELCY P
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -12,15 +12,45 @@ Ministry of Railway
 
 ## Idea
 
+1.Real-Time Station Navigation: Use AI-based geolocation and mapping services to provide real-time indoor navigation within railway stations, helping passengers locate facilities like ticket counters, platforms, restrooms, and waiting areas.
+2.Voice-Guided Assistance: Implement voice-guided navigation for differently-abled passengers, ensuring accessibility for visually impaired individuals.
+3.Live Train & Platform Updates: Provide live updates on train schedules, platform changes, and announcements through a mobile app and digital kiosks.
+4.User Feedback System: Enable passengers to provide real-time feedback on station facilities and navigation quality to improve the system continuously.
+5.Integration with Railway Services: Seamless integration with railway networks for ticket booking, emergency services, and station authority communication.
 
 ## Proposed Solution / Architecture Diagram
+<img width="1536" height="1024" alt="SIH" src="https://github.com/user-attachments/assets/823c5072-67c7-4000-b1fb-98643936365b" />
 
 
 ## Use Cases
+Passenger Navigation: Users can search and find routes to station facilities using an interactive 3D map.
+Admin & Station Staff Access: Admins can update station layouts, manage train schedules, and address passenger concerns.
+Voice Assistance for Accessibility: Users with disabilities can use voice commands for guided navigation.
+Real-Time Alerts: Instant notifications for train schedules, platform changes, and emergency announcements.
+Issue Reporting & Feedback: Passengers can report issues like crowded areas, broken facilities, and incorrect navigation paths.
 
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/c9bf9cc9-5d4b-40bd-9f9c-2b067b40b2ac" />
 ## Technology Stack
+The project will leverage a combination of front-end, back-end, and AI/ML technologies to ensure efficient and user-friendly navigation within railway stations.
 
+### Front-End:
+React.js (for web interface) React Native / Flutter (for mobile app)
 
+### Back-End:
+Node.js / Spring Boot / Django (for server-side logic)
+
+### Database:
+PostgreSQL / Firebase (for real-time station updates)
+
+### APIs & Services:
+Google Maps API (for navigation) Text-to-Speech API (for voice guidance)
+
+### Authentication:
+Firebase Authentication (for secure login)
+### Tools:
+Git(for API testing)
 ## Dependencies
+Mapping Service: 10 days (for collecting station layouts and integrating maps)
+Data Collection: 10 days (for gathering train schedules, platform details, and station information)
+Budget: ₹50,000
 
